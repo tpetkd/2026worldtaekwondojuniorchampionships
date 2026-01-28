@@ -131,10 +131,9 @@ function doPost(e) {
     // 轉換顯示值
     const genderMap = { male: '男', female: '女' };
     const roleMap = { athlete: '選手', coach: '教練', athletic_trainer: '防護員/物理治療師', other: '其他' };
-    const compTypeMap = { sparring: '對打', poomsae: '品勢' };
     const relationMap = { father: '父親', mother: '母親', grandparent: '祖父母', legal_guardian: '法定監護人', other: '其他' };
     const dietMap = { normal: '都可', lacto_ovo: '奶蛋素', vegan: '純素', no_beef: '不吃牛', no_shellfish: '不吃甲殼類', other: '其他' };
-    const rankMap = { '1': '第1名', '2': '第2名', '3': '第3名', '4': '第4名' };
+    const rankMap = { '1': '第1名', '2': '第2名'};
     
     // 準備資料列
     const rowData = [
@@ -276,7 +275,6 @@ function initializeSetup() {
     '大頭照連結',
     '職稱',
     '世盟會員證號',
-    '比賽項目',
     '量級/組別',
     '選拔成績',
     '國際段證連結',
